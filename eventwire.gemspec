@@ -11,6 +11,12 @@ Gem::Specification.new do |s|
   s.summary     = %q{Event Collaboration for the Masses}
   s.description = %q{Generic and simple interface to various backends (AMQP, Redis, ZeroMQ) to help building event-driven systems}
 
+  s.add_dependency 'activesupport'
+  s.add_dependency 'i18n'
+  s.add_dependency 'bson_ext'
+  s.add_dependency 'hashie'
+  s.add_dependency 'redis'
+  s.add_dependency 'em-redis'
   s.rubyforge_project = 'eventwire'
 
   s.files         = `git ls-files`.split("\n")
