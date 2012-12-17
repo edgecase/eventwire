@@ -4,7 +4,7 @@ require 'eventwire/version'
 
 Gem::Specification.new do |s|
   s.name        = 'eventwire'
-  s.version     = Eventwire::VERSION
+  s.version     = '0.0.1.Neo.1'
   s.authors     = ['Luismi Cavalle']
   s.email       = ['luismi@lmcavalle.com']
   s.homepage    = 'http://github.com/cavalle/eventwire'
